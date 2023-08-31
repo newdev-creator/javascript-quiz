@@ -51,7 +51,7 @@ function filterAnswer(userAnswers) {
 }
 
 function addColors(userAnswersFilter) {
-  const fieldset = document.querySelectorAll("fieldset");
+  const fieldset = document.querySelectorAll(".form__question");
 
   userAnswersFilter.forEach((response, index) => {
     if (userAnswersFilter[index]) {

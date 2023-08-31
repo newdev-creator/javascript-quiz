@@ -16,6 +16,7 @@ body {
 h1 {
   text-align: center;
   font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 span {
@@ -28,6 +29,20 @@ form {
   margin-right: auto;
 }
 
-fieldset {
+.form__question {
   background: #f1f1f1;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(104, 104, 104, 0.5);
+}
+
+.form__btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
 }
