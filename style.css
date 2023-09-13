@@ -59,3 +59,24 @@ form {
 input {
   margin-right: 0.5rem;
 }
+
+button {
+  display: block;
+  margin: 20px auto;
+  border-radius: 5px;
+  background: #fff;
+  min-width: 200px;
+  padding: 15px 5px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+form button:hover {
+  background: #b3b1c9;
+}
+
+.show-result {
+  display: flex;
+  justify-content: center;
+}
