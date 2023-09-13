@@ -1,5 +1,4 @@
 const responses = ["c", "a", "b", "a", "c"];
-const emojis = ["😎", "🧐", "🙂", "🤔", "😢"];
 
 const form = document.querySelector(".form");
 const showResultElement = document.querySelector(".show-result");
@@ -32,9 +31,9 @@ function compareAnswers(userAnswers) {
 function showResult(correctCount) {
   const resultHTML =
     correctCount > 0
-      ? `<p>Nombre de réponses correctes : ${correctCount}</p>`
-      : "<p>Aucune réponse correcte</p>";
-  showResultElement.innerHTML = resultHTML;
+      ? `Nombre de réponses correctes : ${correctCount}`
+      : "Aucune réponse correcte";
+  showResultElement.textContent = resultHTML;
 }
 
 function filterAnswer(userAnswers) {
