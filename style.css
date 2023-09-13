@@ -46,3 +46,16 @@ form {
 .btn {
   padding: 0.5rem 1rem;
 }
+
+.question__title {
+  margin-bottom: 1rem;
+}
+
+.question__input {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  margin-right: 0.5rem;
+}
